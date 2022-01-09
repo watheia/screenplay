@@ -1,0 +1,4 @@
+mirrors:
+  'docker.local:5000':
+    endpoint:
+      - http://docker.local:5000
