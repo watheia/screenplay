@@ -1,7 +1,7 @@
-const cucumber = require('cypress-cucumber-preprocessor').default;
-const browserify = require('@cypress/browserify-preprocessor');
+import cucumber from 'cypress-cucumber-preprocessor';
+import browserify from '@cypress/browserify-preprocessor';
 
-module.exports = (on) => {
+export default (on: (event: string, decorator: any) => void) => {
   const options = {
     ...browserify.defaultOptions,
     typescript: require.resolve('typescript'),
