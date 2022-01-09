@@ -1434,6 +1434,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cush/relative@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@cush/relative@npm:1.0.0"
+  checksum: 708681b61986e5f74e44ca5824503c23adb02c088b998429e8ecbbb8e7a4133b9be491cdb6d2b24b39fd9b55fcef109d41ac4f69b74f1f9466268f3c49c020a5
+  languageName: node
+  linkType: hard
+
 "@cypress/request@npm:^2.88.10":
   version: 2.88.10
   resolution: "@cypress/request@npm:2.88.10"
@@ -2239,6 +2246,19 @@ __metadata:
     prettier:
       optional: true
   checksum: e6f32956e8326567d74aa8e2df103d415263bc97803e5dd230999654c522db10ed4ebc0801e8e6d4e5698b015cb8ea8ed4ef358eb928c4eb89af76deff2dddd3
+  languageName: node
+  linkType: hard
+
+"@nxext/vite@npm:^13.1.3":
+  version: 13.1.3
+  resolution: "@nxext/vite@npm:13.1.3"
+  dependencies:
+    vite: ^2.7.2
+    vite-tsconfig-paths: 3.3.17
+  peerDependencies:
+    "@nrwl/devkit": ^13.0.1
+    "@nrwl/workspace": ^13.0.1
+  checksum: 80672da3468cd7700a085563b57416fcbf666af34acfb46185f0058f5178a02b7b19dad0c258c5e7e2f0d128ccba7806d3d573355023831b9b0813286cc0b18f
   languageName: node
   linkType: hard
 
@@ -6198,6 +6218,187 @@ __metadata:
   languageName: node
   linkType: hard
 
+"esbuild-android-arm64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-android-arm64@npm:0.13.15"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-darwin-64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-darwin-64@npm:0.13.15"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-darwin-arm64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-darwin-arm64@npm:0.13.15"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-freebsd-64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-freebsd-64@npm:0.13.15"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-freebsd-arm64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-freebsd-arm64@npm:0.13.15"
+  conditions: os=freebsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-32@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-linux-32@npm:0.13.15"
+  conditions: os=linux & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-linux-64@npm:0.13.15"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-arm64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-linux-arm64@npm:0.13.15"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-arm@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-linux-arm@npm:0.13.15"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-mips64le@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-linux-mips64le@npm:0.13.15"
+  conditions: os=linux & cpu=mips64el
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-ppc64le@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-linux-ppc64le@npm:0.13.15"
+  conditions: os=linux & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"esbuild-netbsd-64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-netbsd-64@npm:0.13.15"
+  conditions: os=netbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-openbsd-64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-openbsd-64@npm:0.13.15"
+  conditions: os=openbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-sunos-64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-sunos-64@npm:0.13.15"
+  conditions: os=sunos & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-32@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-windows-32@npm:0.13.15"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-windows-64@npm:0.13.15"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-arm64@npm:0.13.15":
+  version: 0.13.15
+  resolution: "esbuild-windows-arm64@npm:0.13.15"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild@npm:^0.13.12":
+  version: 0.13.15
+  resolution: "esbuild@npm:0.13.15"
+  dependencies:
+    esbuild-android-arm64: 0.13.15
+    esbuild-darwin-64: 0.13.15
+    esbuild-darwin-arm64: 0.13.15
+    esbuild-freebsd-64: 0.13.15
+    esbuild-freebsd-arm64: 0.13.15
+    esbuild-linux-32: 0.13.15
+    esbuild-linux-64: 0.13.15
+    esbuild-linux-arm: 0.13.15
+    esbuild-linux-arm64: 0.13.15
+    esbuild-linux-mips64le: 0.13.15
+    esbuild-linux-ppc64le: 0.13.15
+    esbuild-netbsd-64: 0.13.15
+    esbuild-openbsd-64: 0.13.15
+    esbuild-sunos-64: 0.13.15
+    esbuild-windows-32: 0.13.15
+    esbuild-windows-64: 0.13.15
+    esbuild-windows-arm64: 0.13.15
+  dependenciesMeta:
+    esbuild-android-arm64:
+      optional: true
+    esbuild-darwin-64:
+      optional: true
+    esbuild-darwin-arm64:
+      optional: true
+    esbuild-freebsd-64:
+      optional: true
+    esbuild-freebsd-arm64:
+      optional: true
+    esbuild-linux-32:
+      optional: true
+    esbuild-linux-64:
+      optional: true
+    esbuild-linux-arm:
+      optional: true
+    esbuild-linux-arm64:
+      optional: true
+    esbuild-linux-mips64le:
+      optional: true
+    esbuild-linux-ppc64le:
+      optional: true
+    esbuild-netbsd-64:
+      optional: true
+    esbuild-openbsd-64:
+      optional: true
+    esbuild-sunos-64:
+      optional: true
+    esbuild-windows-32:
+      optional: true
+    esbuild-windows-64:
+      optional: true
+    esbuild-windows-arm64:
+      optional: true
+  bin:
+    esbuild: bin/esbuild
+  checksum: d5fac8f28a6328592e45f9d49a7e98420cf2c2a3ff5a753bbf011ab79bcb5c062209ef862d3ae0875d8f2a50d40c112b0224e8b419a7cbffc6e2b02cee11ef7e
+  languageName: node
+  linkType: hard
+
 "escalade@npm:^3.1.1":
   version: 3.1.1
   resolution: "escalade@npm:3.1.1"
@@ -7381,6 +7582,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"glob-regex@npm:^0.3.0":
+  version: 0.3.2
+  resolution: "glob-regex@npm:0.3.2"
+  checksum: 4f7adee18e750cbc3a328acb879631feca56dbfc03016cec53d5a54e50663ddc96e24e244ec8c1a5ee883515126754d89deb825eba529d32b869a0ae46f95e5c
+  languageName: node
+  linkType: hard
+
 "glob-to-regexp@npm:^0.4.1":
   version: 0.4.1
   resolution: "glob-to-regexp@npm:0.4.1"
@@ -7468,6 +7676,13 @@ __metadata:
     merge2: ^1.4.1
     slash: ^3.0.0
   checksum: b4be8885e0cfa018fc783792942d53926c35c50b3aefd3fdcfb9d22c627639dc26bd2327a40a0b74b074100ce95bb7187bfeae2f236856aa3de183af7a02aea6
+  languageName: node
+  linkType: hard
+
+"globrex@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "globrex@npm:0.1.2"
+  checksum: adca162494a176ce9ecf4dd232f7b802956bb1966b37f60c15e49d2e7d961b66c60826366dc2649093cad5a0d69970cfa8875bd1695b5a1a2f33dcd2aa88da3c
   languageName: node
   linkType: hard
 
@@ -11402,7 +11617,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.15, postcss@npm:^8.3.5":
+"postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.5":
   version: 8.4.5
   resolution: "postcss@npm:8.4.5"
   dependencies:
@@ -11841,6 +12056,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"recrawl-sync@npm:^2.0.3":
+  version: 2.2.1
+  resolution: "recrawl-sync@npm:2.2.1"
+  dependencies:
+    "@cush/relative": ^1.0.0
+    glob-regex: ^0.3.0
+    slash: ^3.0.0
+    tslib: ^1.9.3
+  checksum: 6bbb3ce1c897194c08a56fe8da88d41e4da4aa84d46181c7c53ff0d225cf5f3d4d6a54151e0c246c0218344f06697eb062afb63b9326ba76f3047c1dc9435345
+  languageName: node
+  linkType: hard
+
 "regenerate-unicode-properties@npm:^9.0.0":
   version: 9.0.0
   resolution: "regenerate-unicode-properties@npm:9.0.0"
@@ -12195,7 +12422,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.56.2":
+"rollup@npm:^2.56.2, rollup@npm:^2.59.0":
   version: 2.63.0
   resolution: "rollup@npm:2.63.0"
   dependencies:
@@ -12427,6 +12654,7 @@ __metadata:
     "@nrwl/tao": 13.4.3
     "@nrwl/web": 13.4.3
     "@nrwl/workspace": 13.4.3
+    "@nxext/vite": ^13.1.3
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
     "@types/express": 4.17.13
@@ -12458,6 +12686,7 @@ __metadata:
     ts-jest: 27.1.2
     tslib: ^2.3.1
     typescript: ~4.5.4
+    vite: ^2.6.4
   languageName: unknown
   linkType: soft
 
@@ -13704,7 +13933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.10.0, tslib@npm:^1.8.1, tslib@npm:^1.9.0":
+"tslib@npm:^1.10.0, tslib@npm:^1.8.1, tslib@npm:^1.9.0, tslib@npm:^1.9.3":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
@@ -14084,6 +14313,49 @@ __metadata:
     core-util-is: 1.0.2
     extsprintf: ^1.2.0
   checksum: c431df0bedf2088b227a4e051e0ff4ca54df2c114096b0c01e1cbaadb021c30a04d7dd5b41ab277bcd51246ca135bf931d4c4c796ecae7a4fef6d744ecef36ea
+  languageName: node
+  linkType: hard
+
+"vite-tsconfig-paths@npm:3.3.17":
+  version: 3.3.17
+  resolution: "vite-tsconfig-paths@npm:3.3.17"
+  dependencies:
+    debug: ^4.1.1
+    globrex: ^0.1.2
+    recrawl-sync: ^2.0.3
+    tsconfig-paths: ^3.9.0
+  peerDependencies:
+    vite: ">2.0.0-0"
+  checksum: 3526f67f787b59bff86be1ecfb1893a806fc4421b6f3b87de3230654662f2427db5e9f3083eeaeeefc0cdeab0f37ce4351d98239db0936e75ce95c17745e55e4
+  languageName: node
+  linkType: hard
+
+"vite@npm:^2.6.4, vite@npm:^2.7.2":
+  version: 2.7.10
+  resolution: "vite@npm:2.7.10"
+  dependencies:
+    esbuild: ^0.13.12
+    fsevents: ~2.3.2
+    postcss: ^8.4.5
+    resolve: ^1.20.0
+    rollup: ^2.59.0
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 1757108547ca34bd01a8ee3973cb04b484492c9e5690fc75f54bbcbde5965ab6e0a5b8355c336adf0a9117aa0fdae3053af3aafa9e5eb783282fffa948cfbe11
   languageName: node
   linkType: hard
 
